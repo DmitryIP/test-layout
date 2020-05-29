@@ -1,0 +1,46 @@
+.header-topbar{
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $primary-color-dark;
+  color: $primary-text-color-light;
+  font-size: 1.2rem;
+  }
+  .header-topbar-logo{
+  padding-left: 23px;
+  font-family: $accent-font;
+  font-size: 1.2rem;
+  color: $primary-text-color-light;
+  }
+  .header-topbar-news{
+    padding: 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    }
+  .header-topbar-news i{
+    justify-self: center;
+    font-family: $secondary-font;
+  }
+  .header-topbar-nav{
+    display: flex;
+    padding-right: 10px;
+    align-items: center;
+  }
+  .topbar-nav-item{
+  display: block;
+  margin: 10px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  }
+  .topbar-nav-item::after {
+    position: relative;
+    left: 10px;
+    top: -1px;
+    color: $primary-text-color-light;
+    content: "|";
+  }
+  .topbar-nav-item:last-child::after {
+    display: none;
+  }

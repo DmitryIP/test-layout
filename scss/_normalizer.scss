@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+  // scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: $primary-font, Roboto, Arial, Helvetica, sans-serif;
+
+  }
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+ul{
+  padding-inline-start: 0;
+}
+li {
+  list-style: none;
+}

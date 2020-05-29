@@ -1,0 +1,115 @@
+.dropmenu-container{
+  position: absolute;
+  height: 0px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: $primary-color-light;
+  transition: height .2s ease-in;
+}
+.main-nav-item:hover .dropmenu-container{
+  height: 220px;
+  transition: height .3s ease-in;
+
+}
+.dropmenu{
+  padding: 14px 34px 8px;
+  display: flex;
+  height: 100%;
+  width: 100%;
+
+}
+.dropmenu-bar{
+  height: 100%;
+  flex: 0 1 18%;
+
+  }
+.dropmenu-bar-item{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 2px;
+    border: 1px solid $divider-color;
+    color: $secondary-text-color;
+    background-color: $primary-color-light;
+}
+.dropmenu-bar-item:hover{
+  color:$primary-color-light ;
+  background-color: $secondary-text-color;
+}
+.dropmenu-nav{
+    height: 100%;
+    flex: 0 1 18%;
+    padding-left: 25px;
+  }
+  .dropmenu-nav-title{
+    margin-bottom: 7px;
+    line-height: 0.8;
+    text-transform: uppercase;
+    font-family: $accent-font;
+    font-size: 2rem;
+    color:$accent-divider-color;
+  }
+  .dropmenu-mark-square{
+    width: 45px;
+    margin-bottom: 11px;
+    border: 1px solid #763b4d;
+    border-radius: 2px;
+    color: #763b4d;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .dropmenu-nav-link{
+    margin-bottom: 18px;
+    font-size: 1.2rem;
+    color: $secondary-text-color;
+  }
+
+.dropmenu-section{
+  padding-left: 30px;
+  height: 100%;
+  flex: 0 1 16.6%;
+   }
+  .dropmenu-section-info{
+    margin-bottom: 16px;
+  }
+  .dropmenu-section-title{
+    height: 19px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0px;
+    font-size: 0.9rem;
+    line-height: 1;
+    font-family: Lato-Black;
+    color: #212121;
+  }
+  .mark-round {
+    display: inline-block;
+    /* margin-right: 1px; */
+    height: 14px;
+    width: 14px;
+    font-size: 0.7rem;
+    text-align: center;
+    line-height: 1.9;
+    border-radius: 50%;
+    border: 1px solid #738090;
+  }
+  .mark-round-white{
+    color: $secondary-text-color;
+    background-color: $primary-color-light;
+  }
+  .mark-round-green{
+    color: $primary-color-light;
+    background-color: $success-color;
+  }
+  .mark-round-red{
+    color: $primary-color-light;
+    background-color: $attention-color;
+  }
+  .dropmenu-section-text{
+    margin-bottom: 10px;
+    padding-top: 1px;
+    font-size: 1rem;
+    font-family:$secondary-font ;
+    color: $secondary-text-color;
+
+  }
